@@ -2,6 +2,9 @@
 
 Flutter plugin to access get shared app group on iOS.
 
+On iOS, this uses the `NSFileManager`'s `containerURLForSecurityApplicationGroupIdentifier` API to get app group container URL.
+see https://developer.apple.com/documentation/foundation/nsfilemanager/1412643-containerurlforsecurityapplicati
+
 ## Usage
 
 ```dart
