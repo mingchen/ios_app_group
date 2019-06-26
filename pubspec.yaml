@@ -1,6 +1,6 @@
 name: ios_app_group
 description: A Flutter plugin to access shared application group container on iOS.
-version: 1.0.1
+version: 1.0.2
 author: Ming Chen <ming_c@hotmail.com>
 homepage: https://github.com/mingchen/ios_app_group
 
