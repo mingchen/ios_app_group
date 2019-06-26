@@ -2,7 +2,7 @@
 
 [![pub package](https://img.shields.io/pub/v/ios_app_group.svg)](https://pub.dev/packages/ios_app_group)
 
-Flutter plugin to access shared app group on iOS.
+A Flutter plugin to access shared application group container on iOS.
 
 On iOS, this uses the `NSFileManager`'s [containerURLForSecurityApplicationGroupIdentifier](https://developer.apple.com/documentation/foundation/nsfilemanager/1412643-containerurlforsecurityapplicati) API to get app group container URL.
 
@@ -28,4 +28,4 @@ Directory sharedDirectory = await IosAppGroup.getAppGroupDirectory('com.example.
 
 # License
 
-BSD. see [LICENSE](LICENSE)
+BSD. see [LICENSE](LICENSE).
